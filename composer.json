@@ -1,0 +1,48 @@
+{
+    "name": "omnistate/openarchieven",
+    "type": "library",
+    "description": "Omnistate Open Archives: births, baptisms, marriages, deaths, burials and more from the indexes of Dutch and Belgian archives (openarchieven.nl), with the archive's reference and the scan of the act.",
+    "keywords": [
+        "genealogy",
+        "civil registry",
+        "burgerlijke stand",
+        "open archives",
+        "openarchieven",
+        "a2a",
+        "netherlands",
+        "belgium",
+        "omnistate"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "glitchr/omnistate": "^1.0@dev",
+        "symfony/http-client-contracts": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnistate\\OpenArchieven\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnistate\\OpenArchieven\\Tests\\": "Tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
