@@ -13,6 +13,10 @@ $act->archive;            // Brabants Historisch Informatie Centrum, Geboortereg
 $act->images;             // the scan of the act
 ```
 
+No framework needed: the package requires `glitchr/omnistate` and `symfony/http-client`.
+`$httpClient` is the HTTP client to call with - the application's, `HttpClient::create()` in
+plain PHP, a `MockHttpClient` in a test.
+
 | | |
 |---|---|
 | Countries | NL, BE, FR (INSEE's deaths), SR - the country of the archive that holds the record |
