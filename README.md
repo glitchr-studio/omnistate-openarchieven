@@ -25,4 +25,4 @@ plain PHP, a `MockHttpClient` in a test.
 | Picture of the act | yes, when the archive scanned it (`CivilRecord::$images`, given by `find()`) |
 | Access | free, no key, open data; 4 calls a second per address (kept by the class) |
 
-Documentation: [docs/](docs/index.md). License: LGPL-3.0-or-later.
+Documentation: [docs/](docs/index.md). License: MIT since 2026-10-09; earlier versions remain published under LGPL-3.0-or-later.
